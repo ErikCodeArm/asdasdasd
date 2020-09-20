@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(227.54deg, #1BA9BC 14.81%, #FD07F3 85.26%);
+  width: 100%;
+  height: 60vh;
+}
+
+.text-color {
+  text-align: center;
+  color: #fff;
+  margin-top: 261px;
+  font-size: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.txt {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.txt {
+  font-size: 16px;
+}
+
+#email {
+  width: 347px;
+  height: 40px;
+  border-radius: 1.25rem;
+  padding-left: 24px;
+  border: none;
+  font-size: 1rem;
+  color: #495057;
+}
+
+button {
+  background: #60656E;
+  height: 41px;
+  width: 135px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: -43px;
+  border-radius: 300px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+button:hover {
+  background-color: #3E4147;
+}
+
+#email:focus, button:focus {
+  outline: 0;
+}
+
+.follow {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: .25rem;
+  width: 260px;
+  margin-left: 41vw;
+  margin-top: 20px;
+}
+
+.follow ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.follow ul li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.fa-facebook {
+  color: #075dad;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.fa-facebook:hover {
+  font-size: 25px;
+  color: yellow;
+}
+
+.fa-youtube {
+  color: #FF0000;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.fa-youtube:hover {
+  font-size: 25px;
+  color: yellow;
+}
+
+.fa-telegram {
+  color: #178CC7;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.fa-telegram:hover {
+  font-size: 25px;
+  color: yellow;
+}
+
+.fa-instagram {
+  color: #E9455A;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.fa-instagram:hover {
+  font-size: 25px;
+  color: yellow;
+}
+
+@media screen and (max-width: 1200px) {
+  .follow {
+    margin-left: 37vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .follow {
+    margin-left: 33vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .follow {
+    margin-left: 29vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .follow {
+    margin-left: 23vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .follow {
+    margin-left: 19vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  button {
+    margin-top: 20px;
+  }
+  .follow {
+    margin-left: 14vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
